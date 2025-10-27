@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/joho/godotenv"
+	//"github.com/joho/godotenv"
 	"github.com/rs/cors" // NOUVEAU : Importer la bibliothèque CORS
 
 	"kivendi-backend/config"
@@ -19,10 +19,10 @@ import (
 
 func main() {
 	// Charge les variables d'environnement depuis le fichier .env
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Erreur lors du chargement du fichier .env")
-	}
+	//err := godotenv.Load()
+	//if err != nil {
+		//log.Fatal("Erreur lors du chargement du fichier .env")
+	//}
 
 	// Initialisez le service AWS
 	handlers.InitAWSService()
