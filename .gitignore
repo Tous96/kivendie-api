@@ -1,0 +1,47 @@
+Fichiers de secrets et d'environnement
+
+NE JAMAIS PARTAGER CES FICHIERS !
+
+.env
+service-account.json
+*.json
+
+Fichiers de build et binaires Go
+
+(Si votre binaire a un nom différent, ajoutez-le)
+
+/kivendi-backend
+/kivendi-backend.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+Répertoires de build et de dépendances
+
+/vendor/
+/bin/
+/build/
+
+Fichiers de log
+
+*.log
+*.out
+.log.
+
+Fichiers système (macOS, Windows, Linux)
+
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*~
+
+Répertoires d'IDE (VSCode, GoLand, etc.)
+
+.vscode/
+.idea/
