@@ -25,7 +25,7 @@ func main() {
 	//}
 
 	// Initialisez le service AWS
-	handlers.InitAWSService()
+	//handlers.InitAWSService()
 
 	// ✅ CORRECTION DE L'INITIALISATION DU SERVICE PUSH
 	// Appel correct à la fonction dans le package 'services'
