@@ -67,7 +67,7 @@ func main() {
 
 	// NOUVEAU : Configuration du middleware CORS
 	c := cors.New(cors.Options{
-		AllowedOrigins:   []string{"http://localhost:5173", "https://votre-domaine-frontend.com"}, // IMPORTANT: Mettez ici l'URL de votre frontend
+		AllowedOrigins:   []string{"http://localhost:5173", "https://api.kivendie.com"}, // IMPORTANT: Mettez ici l'URL de votre frontend
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"},
 		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
 		AllowCredentials: true,

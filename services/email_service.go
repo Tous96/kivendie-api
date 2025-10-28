@@ -82,7 +82,7 @@ func SendPasswordResetEmail(toEmail string, token string) error {
 	frontendURL := os.Getenv("FRONTEND_URL")
 	if frontendURL == "" {
 		log.Println("[ERREUR] Variable d'environnement FRONTEND_URL non définie")
-		frontendURL = "http://192.168.1.4:8080/api/v1" // Fallback pour le développement local
+		frontendURL = "https://api.kivendie.com/api/v1" // Fallback pour le développement local
 	}
 
 	// Construisez le lien de réinitialisation complet
